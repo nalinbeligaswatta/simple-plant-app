@@ -20,7 +20,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.plant_disease_detector"
-        minSdk = 21
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
