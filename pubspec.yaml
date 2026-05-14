@@ -1,0 +1,19 @@
+name: plant_disease_detector
+description: Simple plant disease detector
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  tflite_flutter: ^0.10.4
+  image: ^4.0.17
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/model.tflite
