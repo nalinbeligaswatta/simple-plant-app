@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _loadModel() async {
     try {
-      _interpreter = await Interpreter.fromAsset('assets/model/model.tflite');
+      _interpreter = await Interpreter.fromAsset('model/model.tflite');
     } catch (e) {
       debugPrint('Model load error: $e');
     }
